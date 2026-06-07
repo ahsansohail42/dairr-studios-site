@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dairr Studios | Creative Portfolio</title>
+  <meta name="description" content="A visual portfolio by Dairr Studios, featuring graphics, videos, reels, and brand work." />
+  <meta property="og:title" content="Dairr Studios | Creative Portfolio" />
+  <meta property="og:description" content="Explore graphics, videos, reels, and brand work by Dairr Studios." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="/assets/dairr-logo.jpeg" />
+  <link rel="icon" href="/assets/dairr-logo.jpeg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav-shell" aria-label="Primary navigation">
+      <a class="brand-mark" href="/" aria-label="Dairr Studios home">
+        <img src="/assets/dairr-logo.jpeg" alt="Dairr Studios logo" />
+      </a>
+      <a class="desktop-cta" href="mailto:dairrstudios@gmail.com?subject=Let's%20work%20together%20with%20Dairr%20Studios">Let's Work Together</a>
+    </nav>
+
+    <section class="hero">
+      <p class="eyebrow">Digital Marketing Studio</p>
+      <h1>Creative work, organized like a visual moodboard.</h1>
+      <p class="hero-copy">Explore selected graphics, reels, videos, and brand campaigns by Dairr Studios.</p>
+      <div class="hero-actions">
+        <a class="primary-cta" href="mailto:dairrstudios@gmail.com?subject=Let's%20work%20together%20with%20Dairr%20Studios">Let's Work Together</a>
+        <a class="secondary-cta" href="#work">View Work</a>
+      </div>
+    </section>
+  </header>
+
+  <main id="work" class="work-area">
+    <section class="toolbar" aria-label="Portfolio filters">
+      <div class="filter-group" role="group" aria-label="Content type filters">
+        <button class="filter-btn active" data-filter="all" type="button">All</button>
+        <button class="filter-btn" data-filter="video" type="button">Videos / Reels</button>
+        <button class="filter-btn" data-filter="graphic" type="button">Graphics</button>
+        <button class="filter-btn" data-filter="brands" type="button">Brands</button>
+      </div>
+      <label class="search-wrap" for="searchInput">
+        <span>Search</span>
+        <input id="searchInput" type="search" placeholder="Search brand, campaign, type..." autocomplete="off" />
+      </label>
+    </section>
+
+    <section class="brand-strip hidden" id="brandStrip" aria-label="Brand filters"></section>
+
+    <section class="status-line" aria-live="polite">
+      <span id="resultCount">Loading work...</span>
+      <button id="clearBrand" class="clear-brand hidden" type="button">Clear brand filter</button>
+    </section>
+
+    <section class="masonry-grid" id="masonryGrid" aria-label="Dairr Studios work feed"></section>
+
+    <section class="empty-state hidden" id="emptyState">
+      <h2>No work found</h2>
+      <p>Try clearing your filters or adding more work from the admin panel.</p>
+    </section>
+  </main>
+
+  <dialog class="preview-modal" id="previewModal">
+    <button class="modal-close" id="modalClose" type="button" aria-label="Close preview">×</button>
+    <div class="modal-body" id="modalBody"></div>
+  </dialog>
+
+  <a class="floating-cta" href="mailto:dairrstudios@gmail.com?subject=Let's%20work%20together%20with%20Dairr%20Studios">Let's Work Together</a>
+
+  <script src="/script.js"></script>
+</body>
+</html>
