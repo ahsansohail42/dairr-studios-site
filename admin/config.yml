@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: YOUR-GITHUB-USERNAME/dairr-studios-site
+  repo: ahsansohail42/dairr-studios-site
   branch: main
 
 media_folder: "uploads"
