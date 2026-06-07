@@ -1,0 +1,46 @@
+{
+  "works": [
+    {
+      "id": "dairr-001",
+      "title": "Featured Brand Creative",
+      "brand": "Dairr Studios",
+      "type": "graphic",
+      "source": "manual",
+      "mediaType": "image",
+      "thumbnailUrl": "/assets/dairr-logo.jpeg",
+      "mediaUrl": "/assets/dairr-logo.jpeg",
+      "externalUrl": "",
+      "tags": ["branding", "portfolio"],
+      "featured": true,
+      "description": "A sample portfolio item. Replace this from the admin panel."
+    },
+    {
+      "id": "dairr-002",
+      "title": "Instagram Campaign Placeholder",
+      "brand": "Sample Brand",
+      "type": "graphic",
+      "source": "instagram",
+      "mediaType": "image",
+      "thumbnailUrl": "",
+      "mediaUrl": "",
+      "externalUrl": "https://www.instagram.com/",
+      "tags": ["social media", "instagram"],
+      "featured": false,
+      "description": "Paste the real Instagram URL in admin and upload a thumbnail for the cleanest feed preview."
+    },
+    {
+      "id": "dairr-003",
+      "title": "YouTube Video Placeholder",
+      "brand": "Sample Brand",
+      "type": "video",
+      "source": "youtube",
+      "mediaType": "video",
+      "thumbnailUrl": "",
+      "mediaUrl": "",
+      "externalUrl": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+      "tags": ["video", "youtube"],
+      "featured": false,
+      "description": "Replace this with your own YouTube URL. The modal will open the embedded video player."
+    }
+  ]
+}
