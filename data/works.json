@@ -1,46 +1,55 @@
 {
   "works": [
     {
-      "id": "dairr-001",
-      "title": "Featured Brand Creative",
+      "thumbnailUrl": "/assets/dairr-logo.jpeg",
+      "externalUrl": "",
       "brand": "Dairr Studios",
+      "mediaUrl": "/assets/dairr-logo.jpeg",
+      "featured": true,
+      "title": "Featured Brand Creative",
+      "tags": [
+        "branding",
+        "portfolio"
+      ],
       "type": "graphic",
       "source": "manual",
-      "mediaType": "image",
-      "thumbnailUrl": "/assets/dairr-logo.jpeg",
-      "mediaUrl": "/assets/dairr-logo.jpeg",
-      "externalUrl": "",
-      "tags": ["branding", "portfolio"],
-      "featured": true,
-      "description": "A sample portfolio item. Replace this from the admin panel."
+      "id": "dairr-001",
+      "description": "A sample portfolio item. Replace this from the admin panel.",
+      "mediaType": "image"
     },
     {
-      "id": "dairr-002",
-      "title": "Instagram Campaign Placeholder",
-      "brand": "Sample Brand",
-      "type": "graphic",
-      "source": "instagram",
-      "mediaType": "image",
       "thumbnailUrl": "",
-      "mediaUrl": "",
-      "externalUrl": "https://www.instagram.com/",
-      "tags": ["social media", "instagram"],
+      "externalUrl": "https://www.instagram.com/p/DZMxHJENCZb/?hl=en",
+      "brand": "XpertBid",
+      "mediaUrl": "https://www.instagram.com/p/DZMxHJENCZb/?hl=en",
       "featured": false,
-      "description": "Paste the real Instagram URL in admin and upload a thumbnail for the cleanest feed preview."
+      "title": "1 Rupee Auction Reel",
+      "tags": [
+        "social media",
+        "instagram"
+      ],
+      "type": "reel",
+      "source": "instagram",
+      "id": "dairr-002",
+      "description": "Paste the real Instagram URL in admin and upload a thumbnail for the cleanest feed preview.",
+      "mediaType": "video"
     },
     {
-      "id": "dairr-003",
-      "title": "YouTube Video Placeholder",
+      "thumbnailUrl": "",
+      "externalUrl": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
       "brand": "Sample Brand",
+      "mediaUrl": "",
+      "featured": false,
+      "title": "YouTube Video Placeholder",
+      "tags": [
+        "video",
+        "youtube"
+      ],
       "type": "video",
       "source": "youtube",
-      "mediaType": "video",
-      "thumbnailUrl": "",
-      "mediaUrl": "",
-      "externalUrl": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
-      "tags": ["video", "youtube"],
-      "featured": false,
-      "description": "Replace this with your own YouTube URL. The modal will open the embedded video player."
+      "id": "dairr-003",
+      "description": "Replace this with your own YouTube URL. The modal will open the embedded video player.",
+      "mediaType": "video"
     }
   ]
 }
