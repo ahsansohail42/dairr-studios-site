@@ -1,0 +1,84 @@
+backend:
+  name: github
+  repo: YOUR-GITHUB-USERNAME/dairr-studios-site
+  branch: main
+
+media_folder: "uploads"
+public_folder: "/uploads"
+
+site_url: "https://YOUR-SITE.netlify.app"
+display_url: "https://YOUR-SITE.netlify.app"
+logo_url: "/assets/dairr-logo.jpeg"
+
+collections:
+  - name: "portfolio"
+    label: "Portfolio"
+    files:
+      - label: "Works Feed"
+        name: "works_feed"
+        file: "data/works.json"
+        format: "json"
+        fields:
+          - label: "Works"
+            name: "works"
+            widget: "list"
+            summary: "{{fields.title}} | {{fields.brand}} | {{fields.type}}"
+            fields:
+              - label: "ID"
+                name: "id"
+                widget: "string"
+                hint: "Use a unique ID, for example creamello-001."
+              - label: "Title"
+                name: "title"
+                widget: "string"
+              - label: "Brand"
+                name: "brand"
+                widget: "string"
+              - label: "Type"
+                name: "type"
+                widget: "select"
+                options:
+                  - { label: "Graphic", value: "graphic" }
+                  - { label: "Video", value: "video" }
+                  - { label: "Reel", value: "reel" }
+              - label: "Source"
+                name: "source"
+                widget: "select"
+                options:
+                  - { label: "Manual Upload", value: "manual" }
+                  - { label: "Instagram", value: "instagram" }
+                  - { label: "YouTube", value: "youtube" }
+              - label: "Media Type"
+                name: "mediaType"
+                widget: "select"
+                options:
+                  - { label: "Image", value: "image" }
+                  - { label: "Video", value: "video" }
+                default: "image"
+              - label: "Thumbnail Upload"
+                name: "thumbnailUrl"
+                widget: "image"
+                required: false
+                hint: "Recommended for Instagram posts and every manual creative."
+              - label: "Media Upload"
+                name: "mediaUrl"
+                widget: "file"
+                required: false
+                hint: "Upload the final image/video here for manual uploads."
+              - label: "External URL"
+                name: "externalUrl"
+                widget: "string"
+                required: false
+                hint: "Paste Instagram or YouTube URL here."
+              - label: "Tags"
+                name: "tags"
+                widget: "list"
+                required: false
+              - label: "Featured"
+                name: "featured"
+                widget: "boolean"
+                default: false
+              - label: "Description"
+                name: "description"
+                widget: "text"
+                required: false
