@@ -1,57 +1,6 @@
 {
   "works": [
     {
-      "thumbnailUrl": "/assets/dairr-logo.jpeg",
-      "externalUrl": "",
-      "brand": "Dairr Studios",
-      "mediaUrl": "/assets/dairr-logo.jpeg",
-      "featured": true,
-      "title": "Featured Brand Creative",
-      "tags": [
-        "branding",
-        "portfolio"
-      ],
-      "type": "graphic",
-      "source": "manual",
-      "id": "dairr-001",
-      "description": "A sample portfolio item. Replace this from the admin panel.",
-      "mediaType": "image"
-    },
-    {
-      "thumbnailUrl": "/uploads/love-potion.png",
-      "externalUrl": "https://www.instagram.com/p/DZMxHJENCZb/?hl=en",
-      "brand": "XpertBid",
-      "mediaUrl": "https://www.instagram.com/p/DZMxHJENCZb/?hl=en",
-      "featured": false,
-      "title": "1 Rupee Auction Reel",
-      "tags": [
-        "social media",
-        "instagram"
-      ],
-      "type": "reel",
-      "source": "instagram",
-      "id": "dairr-002",
-      "description": "Paste the real Instagram URL in admin and upload a thumbnail for the cleanest feed preview.",
-      "mediaType": "video"
-    },
-    {
-      "thumbnailUrl": "",
-      "externalUrl": "",
-      "brand": "Sample Brand",
-      "mediaUrl": "/uploads/video_20260515_213604.mp4",
-      "featured": false,
-      "title": "mandi cow video",
-      "tags": [
-        "video",
-        "youtube"
-      ],
-      "type": "video",
-      "source": "youtube",
-      "id": "dairr-003",
-      "description": "Replace this with your own YouTube URL. The modal will open the embedded video player.",
-      "mediaType": "video"
-    },
-    {
       "brand": "Rockstone & Pebble",
       "mediaUrl": "/uploads/luxury-entrance-design-using-white-pebbles.mp4",
       "featured": true,
