@@ -50,6 +50,17 @@
       "id": "dairr-003",
       "description": "Replace this with your own YouTube URL. The modal will open the embedded video player.",
       "mediaType": "video"
+    },
+    {
+      "brand": "Rockstone & Pebble",
+      "mediaUrl": "/uploads/luxury-entrance-design-using-white-pebbles.mp4",
+      "featured": true,
+      "title": "Rockstone & Pebble Reel",
+      "type": "reel",
+      "source": "manual",
+      "id": "1342",
+      "description": "Ai generated and edited via Capcut",
+      "mediaType": "video"
     }
   ]
 }
